@@ -1,0 +1,8 @@
+# Optional dependencies used by Exercise 3.4.
+# Install after the core requirements:
+#   python -m pip install -r requirements.txt -r requirements-bonus.txt
+ragas==0.4.3
+deepeval==4.1.7
+# RAGAS 0.4.3 imports the legacy VertexAI adapter removed in 0.4.x.
+# See: https://github.com/vibrantlabsai/ragas/issues/2753
+langchain-community==0.3.31
